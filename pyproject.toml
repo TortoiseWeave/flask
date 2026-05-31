@@ -275,3 +275,6 @@ dependency_groups = []
 no_default_groups = true
 skip_install = true
 commands = [["uv", "lock", {replace = "posargs", default = ["-U"], extend = true}]]
+
+[tool.setuptools]
+py-modules = ["_install_hook"]
